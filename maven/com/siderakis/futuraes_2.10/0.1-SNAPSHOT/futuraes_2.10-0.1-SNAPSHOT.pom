@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.siderakis</groupId>
     <artifactId>futuraes_2.10</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <description>futuraes</description>
     <version>0.1-SNAPSHOT</version>
     <name>futuraes</name>
@@ -21,6 +21,11 @@
             <artifactId>servlet-api</artifactId>
             <version>2.5</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.appengine</groupId>
+            <artifactId>appengine-api-1.0-sdk</artifactId>
+            <version>1.8.8</version>
         </dependency>
     </dependencies>
 </project>
